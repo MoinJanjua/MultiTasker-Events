@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		803D30DC2CC93263006C61A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30DB2CC93263006C61A4 /* AppDelegate.swift */; };
+		803D30DE2CC93263006C61A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30DD2CC93263006C61A4 /* SceneDelegate.swift */; };
+		803D30E32CC93263006C61A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 803D30E22CC93263006C61A4 /* Base */; };
+		803D30E52CC93267006C61A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 803D30E42CC93267006C61A4 /* Assets.xcassets */; };
+		803D30E82CC93267006C61A4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 803D30E72CC93267006C61A4 /* Base */; };
+		803D30F12CC935D0006C61A4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30EF2CC935D0006C61A4 /* Helper.swift */; };
+		803D30F42CC935DB006C61A4 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30F22CC935DB006C61A4 /* iOSDropDown.swift */; };
+		803D30F92CC93644006C61A4 /* WelcomeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30F52CC93644006C61A4 /* WelcomeOneViewController.swift */; };
+		803D30FA2CC93644006C61A4 /* WelcomeThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30F62CC93644006C61A4 /* WelcomeThreeViewController.swift */; };
+		803D30FB2CC93644006C61A4 /* WelcomeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D30F72CC93644006C61A4 /* WelcomeTwoViewController.swift */; };
+		804B6B362CCA71A50087EAD8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B6B342CCA71A50087EAD8 /* DetailViewController.swift */; };
+		804B6B392CCA7D080087EAD8 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B6B372CCA7D070087EAD8 /* TranslationViewController.swift */; };
+		804B6B3C2CCA7D310087EAD8 /* VoiceToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B6B3A2CCA7D310087EAD8 /* VoiceToTextViewController.swift */; };
+		804B6B3E2CCA7E1D0087EAD8 /* A1.json in Resources */ = {isa = PBXBuildFile; fileRef = 804B6B3D2CCA7E1D0087EAD8 /* A1.json */; };
+		804B6B402CCA7E290087EAD8 /* SwiftyTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B6B3F2CCA7E290087EAD8 /* SwiftyTranslate.swift */; };
+		807C01D02CCBCC7F0017FE4B /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C01CE2CCBCC7F0017FE4B /* AboutusViewController.swift */; };
+		807C01D32CCBCC8A0017FE4B /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C01D12CCBCC890017FE4B /* FeedbackViewController.swift */; };
+		807C01D62CCBD4860017FE4B /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C01D52CCBD4860017FE4B /* SavedViewController.swift */; };
+		807C01D82CCBD4970017FE4B /* SavedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C01D72CCBD4970017FE4B /* SavedTableViewCell.swift */; };
+		80A05DAA2CCA4A9D00F08C69 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A05DA82CCA4A9C00F08C69 /* OrderViewController.swift */; };
+		80A05DAE2CCA567900F08C69 /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A05DAB2CCA567800F08C69 /* RecordsTableViewCell.swift */; };
+		80A05DAF2CCA567900F08C69 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A05DAC2CCA567800F08C69 /* RecordsViewController.swift */; };
+		80C0F13A2CCB8385005FCE9C /* DailyExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1382CCB8385005FCE9C /* DailyExpenseViewController.swift */; };
+		80C0F13D2CCB84B2005FCE9C /* CreatingRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F13B2CCB84B2005FCE9C /* CreatingRecordsViewController.swift */; };
+		80C0F1412CCB8519005FCE9C /* AllTransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F13E2CCB8519005FCE9C /* AllTransactionsVC.swift */; };
+		80C0F1422CCB8519005FCE9C /* DailyExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F13F2CCB8519005FCE9C /* DailyExpenseTableViewCell.swift */; };
+		80C0F1462CCB8568005FCE9C /* SelectItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1432CCB8568005FCE9C /* SelectItemTableViewCell.swift */; };
+		80C0F1472CCB8568005FCE9C /* SelectItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1442CCB8568005FCE9C /* SelectItemViewController.swift */; };
+		80C0F14B2CCB8604005FCE9C /* DWiseTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1482CCB8604005FCE9C /* DWiseTTableViewCell.swift */; };
+		80C0F14C2CCB8604005FCE9C /* DWiseTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1492CCB8604005FCE9C /* DWiseTViewController.swift */; };
+		80C0F1502CCB9272005FCE9C /* CurencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F14D2CCB9272005FCE9C /* CurencyTableViewCell.swift */; };
+		80C0F1512CCB9272005FCE9C /* CurencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F14E2CCB9272005FCE9C /* CurencyViewController.swift */; };
+		80C0F1542CCB9AC5005FCE9C /* ExpenditureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1532CCB9AC5005FCE9C /* ExpenditureViewController.swift */; };
+		80C0F1562CCB9AE5005FCE9C /* ExpenditureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0F1552CCB9AE5005FCE9C /* ExpenditureCollectionViewCell.swift */; };
+		80DFF9B02CCA312C00ADEBEF /* HCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DFF9AC2CCA312B00ADEBEF /* HCollectionViewCell.swift */; };
+		80DFF9B12CCA312C00ADEBEF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DFF9AD2CCA312B00ADEBEF /* HomeViewController.swift */; };
+		80DFF9B22CCA312C00ADEBEF /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DFF9AE2CCA312B00ADEBEF /* SideMenuTableViewCell.swift */; };
+		894B31E7BD690F63B32721F5 /* Pods_MultiTasker_Events.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65E909365795800D8D65602 /* Pods_MultiTasker_Events.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		274BB0D89A43C431C77F59B3 /* Pods-MultiTasker Events.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTasker Events.release.xcconfig"; path = "Target Support Files/Pods-MultiTasker Events/Pods-MultiTasker Events.release.xcconfig"; sourceTree = "<group>"; };
+		803D30D82CC93263006C61A4 /* MultiTasker Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiTasker Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		803D30DB2CC93263006C61A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		803D30DD2CC93263006C61A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		803D30E22CC93263006C61A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		803D30E42CC93267006C61A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		803D30E72CC93267006C61A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		803D30E92CC93267006C61A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		803D30EF2CC935D0006C61A4 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		803D30F22CC935DB006C61A4 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		803D30F52CC93644006C61A4 /* WelcomeOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeOneViewController.swift; sourceTree = "<group>"; };
+		803D30F62CC93644006C61A4 /* WelcomeThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeThreeViewController.swift; sourceTree = "<group>"; };
+		803D30F72CC93644006C61A4 /* WelcomeTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeTwoViewController.swift; sourceTree = "<group>"; };
+		804B6B342CCA71A50087EAD8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		804B6B372CCA7D070087EAD8 /* TranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		804B6B3A2CCA7D310087EAD8 /* VoiceToTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceToTextViewController.swift; sourceTree = "<group>"; };
+		804B6B3D2CCA7E1D0087EAD8 /* A1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A1.json; sourceTree = "<group>"; };
+		804B6B3F2CCA7E290087EAD8 /* SwiftyTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTranslate.swift; sourceTree = "<group>"; };
+		807C01CE2CCBCC7F0017FE4B /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		807C01D12CCBCC890017FE4B /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		807C01D52CCBD4860017FE4B /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		807C01D72CCBD4970017FE4B /* SavedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewCell.swift; sourceTree = "<group>"; };
+		80A05DA82CCA4A9C00F08C69 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		80A05DAB2CCA567800F08C69 /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		80A05DAC2CCA567800F08C69 /* RecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		80C0F1382CCB8385005FCE9C /* DailyExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyExpenseViewController.swift; sourceTree = "<group>"; };
+		80C0F13B2CCB84B2005FCE9C /* CreatingRecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatingRecordsViewController.swift; sourceTree = "<group>"; };
+		80C0F13E2CCB8519005FCE9C /* AllTransactionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTransactionsVC.swift; sourceTree = "<group>"; };
+		80C0F13F2CCB8519005FCE9C /* DailyExpenseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		80C0F1432CCB8568005FCE9C /* SelectItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectItemTableViewCell.swift; sourceTree = "<group>"; };
+		80C0F1442CCB8568005FCE9C /* SelectItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectItemViewController.swift; sourceTree = "<group>"; };
+		80C0F1482CCB8604005FCE9C /* DWiseTTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWiseTTableViewCell.swift; sourceTree = "<group>"; };
+		80C0F1492CCB8604005FCE9C /* DWiseTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWiseTViewController.swift; sourceTree = "<group>"; };
+		80C0F14D2CCB9272005FCE9C /* CurencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurencyTableViewCell.swift; sourceTree = "<group>"; };
+		80C0F14E2CCB9272005FCE9C /* CurencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurencyViewController.swift; sourceTree = "<group>"; };
+		80C0F1532CCB9AC5005FCE9C /* ExpenditureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditureViewController.swift; sourceTree = "<group>"; };
+		80C0F1552CCB9AE5005FCE9C /* ExpenditureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditureCollectionViewCell.swift; sourceTree = "<group>"; };
+		80DFF9AC2CCA312B00ADEBEF /* HCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCollectionViewCell.swift; sourceTree = "<group>"; };
+		80DFF9AD2CCA312B00ADEBEF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80DFF9AE2CCA312B00ADEBEF /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		AB22836074119F60594FAE9F /* Pods-MultiTasker Events.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTasker Events.debug.xcconfig"; path = "Target Support Files/Pods-MultiTasker Events/Pods-MultiTasker Events.debug.xcconfig"; sourceTree = "<group>"; };
+		B65E909365795800D8D65602 /* Pods_MultiTasker_Events.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTasker_Events.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		803D30D52CC93263006C61A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894B31E7BD690F63B32721F5 /* Pods_MultiTasker_Events.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		677DFA74D91E13DA92D4AE0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB22836074119F60594FAE9F /* Pods-MultiTasker Events.debug.xcconfig */,
+				274BB0D89A43C431C77F59B3 /* Pods-MultiTasker Events.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		803D30CF2CC93263006C61A4 = {
+			isa = PBXGroup;
+			children = (
+				803D30DA2CC93263006C61A4 /* MultiTasker Events */,
+				803D30D92CC93263006C61A4 /* Products */,
+				677DFA74D91E13DA92D4AE0B /* Pods */,
+				DE95C1B55F18213755ACB450 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		803D30D92CC93263006C61A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803D30D82CC93263006C61A4 /* MultiTasker Events.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803D30DA2CC93263006C61A4 /* MultiTasker Events */ = {
+			isa = PBXGroup;
+			children = (
+				803D30F32CC935DB006C61A4 /* Resoucres&Animations */,
+				803D30F02CC935D0006C61A4 /* Needed */,
+				807C01CF2CCBCC7F0017FE4B /* AboutUs */,
+				807C01D22CCBCC890017FE4B /* Feedback */,
+				80C0F14F2CCB9272005FCE9C /* CurencyVC */,
+				80C0F14A2CCB8604005FCE9C /* Datewise Transaction */,
+				80C0F1452CCB8568005FCE9C /* SelectItemVC */,
+				80C0F1402CCB8519005FCE9C /* All Transactions */,
+				80C0F13C2CCB84B2005FCE9C /* CreatingRecords */,
+				80C0F1392CCB8385005FCE9C /* DailyExpense */,
+				80C0F1522CCB9A97005FCE9C /* Expenditure Managment */,
+				807C01D42CCBD4610017FE4B /* SavedEvents */,
+				804B6B3B2CCA7D310087EAD8 /* VoiceToTextViewController */,
+				804B6B382CCA7D070087EAD8 /* Text Translate */,
+				80A05DA92CCA4A9C00F08C69 /* Event Creates */,
+				804B6B352CCA71A50087EAD8 /* EventDetail */,
+				80A05DAD2CCA567800F08C69 /* Events */,
+				80DFF9AF2CCA312B00ADEBEF /* Home */,
+				803D30F82CC93644006C61A4 /* Welcome */,
+				803D30DB2CC93263006C61A4 /* AppDelegate.swift */,
+				803D30DD2CC93263006C61A4 /* SceneDelegate.swift */,
+				803D30E12CC93263006C61A4 /* Main.storyboard */,
+				803D30E42CC93267006C61A4 /* Assets.xcassets */,
+				803D30E62CC93267006C61A4 /* LaunchScreen.storyboard */,
+				803D30E92CC93267006C61A4 /* Info.plist */,
+			);
+			path = "MultiTasker Events";
+			sourceTree = "<group>";
+		};
+		803D30F02CC935D0006C61A4 /* Needed */ = {
+			isa = PBXGroup;
+			children = (
+				803D30EF2CC935D0006C61A4 /* Helper.swift */,
+			);
+			path = Needed;
+			sourceTree = "<group>";
+		};
+		803D30F32CC935DB006C61A4 /* Resoucres&Animations */ = {
+			isa = PBXGroup;
+			children = (
+				804B6B3D2CCA7E1D0087EAD8 /* A1.json */,
+				804B6B3F2CCA7E290087EAD8 /* SwiftyTranslate.swift */,
+				803D30F22CC935DB006C61A4 /* iOSDropDown.swift */,
+			);
+			path = "Resoucres&Animations";
+			sourceTree = "<group>";
+		};
+		803D30F82CC93644006C61A4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				803D30F62CC93644006C61A4 /* WelcomeThreeViewController.swift */,
+				803D30F72CC93644006C61A4 /* WelcomeTwoViewController.swift */,
+				803D30F52CC93644006C61A4 /* WelcomeOneViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		804B6B352CCA71A50087EAD8 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				804B6B342CCA71A50087EAD8 /* DetailViewController.swift */,
+			);
+			path = EventDetail;
+			sourceTree = "<group>";
+		};
+		804B6B382CCA7D070087EAD8 /* Text Translate */ = {
+			isa = PBXGroup;
+			children = (
+				804B6B372CCA7D070087EAD8 /* TranslationViewController.swift */,
+			);
+			path = "Text Translate";
+			sourceTree = "<group>";
+		};
+		804B6B3B2CCA7D310087EAD8 /* VoiceToTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				804B6B3A2CCA7D310087EAD8 /* VoiceToTextViewController.swift */,
+			);
+			path = VoiceToTextViewController;
+			sourceTree = "<group>";
+		};
+		807C01CF2CCBCC7F0017FE4B /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				807C01CE2CCBCC7F0017FE4B /* AboutusViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		807C01D22CCBCC890017FE4B /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				807C01D12CCBCC890017FE4B /* FeedbackViewController.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		807C01D42CCBD4610017FE4B /* SavedEvents */ = {
+			isa = PBXGroup;
+			children = (
+				807C01D52CCBD4860017FE4B /* SavedViewController.swift */,
+				807C01D72CCBD4970017FE4B /* SavedTableViewCell.swift */,
+			);
+			path = SavedEvents;
+			sourceTree = "<group>";
+		};
+		80A05DA92CCA4A9C00F08C69 /* Event Creates */ = {
+			isa = PBXGroup;
+			children = (
+				80A05DA82CCA4A9C00F08C69 /* OrderViewController.swift */,
+			);
+			path = "Event Creates";
+			sourceTree = "<group>";
+		};
+		80A05DAD2CCA567800F08C69 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				80A05DAB2CCA567800F08C69 /* RecordsTableViewCell.swift */,
+				80A05DAC2CCA567800F08C69 /* RecordsViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		80C0F1392CCB8385005FCE9C /* DailyExpense */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F1382CCB8385005FCE9C /* DailyExpenseViewController.swift */,
+			);
+			path = DailyExpense;
+			sourceTree = "<group>";
+		};
+		80C0F13C2CCB84B2005FCE9C /* CreatingRecords */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F13B2CCB84B2005FCE9C /* CreatingRecordsViewController.swift */,
+			);
+			path = CreatingRecords;
+			sourceTree = "<group>";
+		};
+		80C0F1402CCB8519005FCE9C /* All Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F13E2CCB8519005FCE9C /* AllTransactionsVC.swift */,
+				80C0F13F2CCB8519005FCE9C /* DailyExpenseTableViewCell.swift */,
+			);
+			path = "All Transactions";
+			sourceTree = "<group>";
+		};
+		80C0F1452CCB8568005FCE9C /* SelectItemVC */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F1432CCB8568005FCE9C /* SelectItemTableViewCell.swift */,
+				80C0F1442CCB8568005FCE9C /* SelectItemViewController.swift */,
+			);
+			path = SelectItemVC;
+			sourceTree = "<group>";
+		};
+		80C0F14A2CCB8604005FCE9C /* Datewise Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F1482CCB8604005FCE9C /* DWiseTTableViewCell.swift */,
+				80C0F1492CCB8604005FCE9C /* DWiseTViewController.swift */,
+			);
+			path = "Datewise Transaction";
+			sourceTree = "<group>";
+		};
+		80C0F14F2CCB9272005FCE9C /* CurencyVC */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F14D2CCB9272005FCE9C /* CurencyTableViewCell.swift */,
+				80C0F14E2CCB9272005FCE9C /* CurencyViewController.swift */,
+			);
+			path = CurencyVC;
+			sourceTree = "<group>";
+		};
+		80C0F1522CCB9A97005FCE9C /* Expenditure Managment */ = {
+			isa = PBXGroup;
+			children = (
+				80C0F1532CCB9AC5005FCE9C /* ExpenditureViewController.swift */,
+				80C0F1552CCB9AE5005FCE9C /* ExpenditureCollectionViewCell.swift */,
+			);
+			path = "Expenditure Managment";
+			sourceTree = "<group>";
+		};
+		80DFF9AF2CCA312B00ADEBEF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80DFF9AD2CCA312B00ADEBEF /* HomeViewController.swift */,
+				80DFF9AC2CCA312B00ADEBEF /* HCollectionViewCell.swift */,
+				80DFF9AE2CCA312B00ADEBEF /* SideMenuTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE95C1B55F18213755ACB450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B65E909365795800D8D65602 /* Pods_MultiTasker_Events.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		803D30D72CC93263006C61A4 /* MultiTasker Events */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803D30EC2CC93267006C61A4 /* Build configuration list for PBXNativeTarget "MultiTasker Events" */;
+			buildPhases = (
+				25B10146F8E5D746F470810D /* [CP] Check Pods Manifest.lock */,
+				803D30D42CC93263006C61A4 /* Sources */,
+				803D30D52CC93263006C61A4 /* Frameworks */,
+				803D30D62CC93263006C61A4 /* Resources */,
+				A7BF3222BB2F4420EA4AD269 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiTasker Events";
+			productName = "MultiTasker Events";
+			productReference = 803D30D82CC93263006C61A4 /* MultiTasker Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		803D30D02CC93263006C61A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					803D30D72CC93263006C61A4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 803D30D32CC93263006C61A4 /* Build configuration list for PBXProject "MultiTasker Events" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 803D30CF2CC93263006C61A4;
+			productRefGroup = 803D30D92CC93263006C61A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				803D30D72CC93263006C61A4 /* MultiTasker Events */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		803D30D62CC93263006C61A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803D30E52CC93267006C61A4 /* Assets.xcassets in Resources */,
+				804B6B3E2CCA7E1D0087EAD8 /* A1.json in Resources */,
+				803D30E82CC93267006C61A4 /* Base in Resources */,
+				803D30E32CC93263006C61A4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B10146F8E5D746F470810D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiTasker Events-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BF3222BB2F4420EA4AD269 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiTasker Events/Pods-MultiTasker Events-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiTasker Events/Pods-MultiTasker Events-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiTasker Events/Pods-MultiTasker Events-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		803D30D42CC93263006C61A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803D30FA2CC93644006C61A4 /* WelcomeThreeViewController.swift in Sources */,
+				803D30F42CC935DB006C61A4 /* iOSDropDown.swift in Sources */,
+				80C0F1422CCB8519005FCE9C /* DailyExpenseTableViewCell.swift in Sources */,
+				803D30DC2CC93263006C61A4 /* AppDelegate.swift in Sources */,
+				80DFF9B02CCA312C00ADEBEF /* HCollectionViewCell.swift in Sources */,
+				807C01D82CCBD4970017FE4B /* SavedTableViewCell.swift in Sources */,
+				803D30F92CC93644006C61A4 /* WelcomeOneViewController.swift in Sources */,
+				807C01D62CCBD4860017FE4B /* SavedViewController.swift in Sources */,
+				80C0F1542CCB9AC5005FCE9C /* ExpenditureViewController.swift in Sources */,
+				804B6B402CCA7E290087EAD8 /* SwiftyTranslate.swift in Sources */,
+				80DFF9B22CCA312C00ADEBEF /* SideMenuTableViewCell.swift in Sources */,
+				80C0F1462CCB8568005FCE9C /* SelectItemTableViewCell.swift in Sources */,
+				80C0F1512CCB9272005FCE9C /* CurencyViewController.swift in Sources */,
+				80C0F13D2CCB84B2005FCE9C /* CreatingRecordsViewController.swift in Sources */,
+				80A05DAE2CCA567900F08C69 /* RecordsTableViewCell.swift in Sources */,
+				804B6B3C2CCA7D310087EAD8 /* VoiceToTextViewController.swift in Sources */,
+				80C0F1562CCB9AE5005FCE9C /* ExpenditureCollectionViewCell.swift in Sources */,
+				80DFF9B12CCA312C00ADEBEF /* HomeViewController.swift in Sources */,
+				803D30DE2CC93263006C61A4 /* SceneDelegate.swift in Sources */,
+				803D30F12CC935D0006C61A4 /* Helper.swift in Sources */,
+				807C01D02CCBCC7F0017FE4B /* AboutusViewController.swift in Sources */,
+				80C0F14B2CCB8604005FCE9C /* DWiseTTableViewCell.swift in Sources */,
+				80C0F1472CCB8568005FCE9C /* SelectItemViewController.swift in Sources */,
+				80C0F1502CCB9272005FCE9C /* CurencyTableViewCell.swift in Sources */,
+				80C0F1412CCB8519005FCE9C /* AllTransactionsVC.swift in Sources */,
+				80A05DAA2CCA4A9D00F08C69 /* OrderViewController.swift in Sources */,
+				80A05DAF2CCA567900F08C69 /* RecordsViewController.swift in Sources */,
+				80C0F13A2CCB8385005FCE9C /* DailyExpenseViewController.swift in Sources */,
+				803D30FB2CC93644006C61A4 /* WelcomeTwoViewController.swift in Sources */,
+				807C01D32CCBCC8A0017FE4B /* FeedbackViewController.swift in Sources */,
+				804B6B362CCA71A50087EAD8 /* DetailViewController.swift in Sources */,
+				804B6B392CCA7D080087EAD8 /* TranslationViewController.swift in Sources */,
+				80C0F14C2CCB8604005FCE9C /* DWiseTViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		803D30E12CC93263006C61A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803D30E22CC93263006C61A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		803D30E62CC93267006C61A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803D30E72CC93267006C61A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803D30EA2CC93267006C61A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		803D30EB2CC93267006C61A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		803D30ED2CC93267006C61A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB22836074119F60594FAE9F /* Pods-MultiTasker Events.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiTasker Events/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MultiTasker Events requires access to your device microphone to convert your speech into text. This feature allows you to dictate text, making it easier and faster to input information without typing.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "MultiTasker Events utilizes speech recognition technology to convert your voice into text, allowing for seamless and efficient text input through dictation.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multitaskerevents.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		803D30EE2CC93267006C61A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274BB0D89A43C431C77F59B3 /* Pods-MultiTasker Events.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MultiTasker Events/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "MultiTasker Events requires access to your device microphone to convert your speech into text. This feature allows you to dictate text, making it easier and faster to input information without typing.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "MultiTasker Events utilizes speech recognition technology to convert your voice into text, allowing for seamless and efficient text input through dictation.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.multitaskerevents.sm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		803D30D32CC93263006C61A4 /* Build configuration list for PBXProject "MultiTasker Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803D30EA2CC93267006C61A4 /* Debug */,
+				803D30EB2CC93267006C61A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803D30EC2CC93267006C61A4 /* Build configuration list for PBXNativeTarget "MultiTasker Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803D30ED2CC93267006C61A4 /* Debug */,
+				803D30EE2CC93267006C61A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 803D30D02CC93263006C61A4 /* Project object */;
+}
